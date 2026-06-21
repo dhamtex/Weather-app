@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Weather App</h1>
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name"
+            >
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <main>
+
+        <p id="loading" class="loading"></p>
+
+        <p id="error" class="error"></p>
+
+        <section class="hero">
+
+            <div id="weatherIcon" class="weather-icon">
+                ☀
+            </div>
+
+            <h2 id="cityName">City Name</h2>
+
+            <p id="countryName">Country</p>
+
+            <h1 id="temperature">--°C</h1>
+
+            <p id="description">Weather Description</p>
+
+        </section>
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <h3>Humidity</h3>
+                <p id="humidity">--%</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Wind Speed</h3>
+                <p id="windSpeed">-- km/h</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>UV Index</h3>
+                <p id="uvIndex">--</p>
+            </div>
+
+        </section>
+
+        <section class="forecast-section">
+
+            <h2>5-Day Forecast</h2>
+
+            <div id="forecastContainer" class="forecast-grid">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
