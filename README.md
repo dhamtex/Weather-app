@@ -60,7 +60,7 @@ weather-app/
 GitHub Pages URL:
 
 ```
-https://yourusername.github.io/weather-app/
+https://dhamtex.github.io/Weather-app/
 ```
 
 ---
